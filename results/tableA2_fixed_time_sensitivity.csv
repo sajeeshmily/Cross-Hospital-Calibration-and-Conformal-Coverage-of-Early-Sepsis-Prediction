@@ -1,0 +1,9 @@
+Model,Direction and class,Target,T = 12 h: training / other hospital,T = 24 h: training / other hospital,T = 48 h: training / other hospital
+"GBM, values + mask (primary)","A→B, septic",0.80,0.82 / 0.57,0.87 / 0.59,0.75 / 0.44
+"GBM, values + mask (primary)","A→B, non-septic",0.95,0.95 / 0.98,0.95 / 0.99,0.95 / 0.99
+"GBM, values + mask (primary)","B→A, septic",0.80,0.91 / 0.91,0.87 / 0.91,0.77 / 0.83
+"GBM, values + mask (primary)","B→A, non-septic",0.95,0.95 / 0.84,0.95 / 0.87,0.95 / 0.87
+GRU-D (exploratory),"A→B, septic",0.80,0.79 / 0.57,0.83 / 0.59,0.81 / 0.60
+GRU-D (exploratory),"A→B, non-septic",0.95,0.95 / 0.99,0.95 / 0.99,0.96 / 1.00
+GRU-D (exploratory),"B→A, septic",0.80,0.85 / 0.92,0.86 / 0.95,0.77 / 0.84
+GRU-D (exploratory),"B→A, non-septic",0.95,0.96 / 0.83,0.95 / 0.83,0.95 / 0.86

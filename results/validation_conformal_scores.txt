@@ -1,0 +1,9 @@
+[PASS] 1 deployable score: T=24: m unchanged when all later scores are overwritten and when outcome labels are permuted (a whole-stay maximum changed for 14925 of 15315 eligible patients)
+[PASS] 1b eligibility and outcome: T=24, outcome horizon H=24 h: eligible septic 340, eligible non-septic 14975 of 20336 patients; excluded: stay shorter than T or sepsis onset by T; septic = onset in (T, T+H], non-septic = no onset by T+H
+[PASS] 2/3 sets and independent code: in-site seed 0, T=24: septic 0.7297 vs 0.7297, non-septic 0.9495 vs 0.9495 (41 septic and 1485 non-septic calibration patients)
+[PASS] 4 synthetic coverage: alpha 0.20: 0.8010 (>= 0.80), alpha 0.05: 0.9500 (>= 0.95)
+[PASS] 4b small calibration -> full set: qhat returns +inf when ceil((n+1)(1-alpha)) > n
+[PASS] 5 guarantee on held-out eligible patients: A->B gbm_both T=24: septic 0.811, non-septic 0.950; A->B gbm_both T=12: septic 0.808, non-septic 0.950; A->B gbm_both T=48: septic 0.819, non-septic 0.951; A->B grud T=24: septic 0.809, non-septic 0.950; A->B grud T=12: septic 0.809, non-septic 0.950; A->B grud T=48: septic 0.813, non-septic 0.951; B->A gbm_both T=24: septic 0.824, non-septic 0.950; B->A gbm_both T=12: septic 0.823, non-septic 0.950; B->A gbm_both T=48: septic 0.836, non-septic 0.951; B->A grud T=24: septic 0.816, non-septic 0.950; B->A grud T=12: septic 0.812, non-septic 0.950; B->A grud T=48: septic 0.840, non-septic 0.951
+[PASS] 6 in-site patient coverage not below target: guarantee is one-sided: no cell (24 cells, all T) below target by more than 2.9 SE of the seed mean (Bonferroni); lowest margin -0.054, highest over-coverage 0.113
+
+7 of 7 checks passed

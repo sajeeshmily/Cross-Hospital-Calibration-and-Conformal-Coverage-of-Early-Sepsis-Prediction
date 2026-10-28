@@ -1,0 +1,13 @@
+Direction,Subset,Patients,"Septic patients, mean over seeds (range)"
+A->B,A training,"12,201",1076 (1049-1108)
+A->B,A isotonic calibration,"2,034",179 (172-188)
+A->B,A threshold and conformal calibration,"2,033",184 (159-205)
+A->B,A in-site test,"4,068",351 (330-369)
+A->B,B labeled pool (remedies only),"8,000",464 (446-484)
+A->B,B other-hospital test,"12,000",678 (658-696)
+B->A,B training,"12,000",702 (677-721)
+B->A,B isotonic calibration,"2,000",120 (109-132)
+B->A,B threshold and conformal calibration,"2,000",109 (99-122)
+B->A,B in-site test,"4,000",212 (203-234)
+B->A,A labeled pool (remedies only),"8,134",727 (703-769)
+B->A,A other-hospital test,"12,202",1063 (1021-1087)

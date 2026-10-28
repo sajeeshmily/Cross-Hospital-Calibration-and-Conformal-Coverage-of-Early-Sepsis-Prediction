@@ -1,0 +1,5 @@
+Model,Source hospital,Calibration patients,"Septic coverage, mean (SD) over splits","Non-septic coverage, mean (SD) over splits"
+"GBM, values + mask (primary)",A,2033,0.803 (0.034),0.950 (0.006)
+GRU-D (exploratory),A,2033,0.802 (0.034),0.950 (0.006)
+"GBM, values + mask (primary)",B,2000,0.805 (0.044),0.950 (0.006)
+GRU-D (exploratory),B,2000,0.805 (0.045),0.950 (0.006)

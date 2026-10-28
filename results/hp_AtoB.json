@@ -1,0 +1,1 @@
+{"max_leaf_nodes": 31, "learning_rate": 0.05, "l2_regularization": 1.0, "min_samples_leaf": 500, "tuning_auprc": 0.07892154952864387}

@@ -1,0 +1,9 @@
+Model,Direction and class,Target,Septic calibration patients (6 h / 24 h / rest of stay),Septic = onset within 6 h of T (training-label horizon): training / other hospital,Septic = onset within 24 h of T (main): training / other hospital,Septic = onset any time after T: training / other hospital
+"GBM, values + mask (primary)","A→B, septic",0.80,11 / 34 / 107,0.83 / 0.62,0.87 / 0.59,0.79 / 0.51
+"GBM, values + mask (primary)","A→B, non-septic",0.95,11 / 34 / 107,0.95 / 0.99,0.95 / 0.99,0.95 / 0.99
+"GBM, values + mask (primary)","B→A, septic",0.80,4 / 20 / 61,0.81 / 0.91,0.87 / 0.91,0.84 / 0.90
+"GBM, values + mask (primary)","B→A, non-septic",0.95,4 / 20 / 61,0.95 / 0.87,0.95 / 0.87,0.96 / 0.87
+GRU-D (exploratory),"A→B, septic",0.80,11 / 34 / 107,0.87 / 0.74,0.83 / 0.59,0.84 / 0.64
+GRU-D (exploratory),"A→B, non-septic",0.95,11 / 34 / 107,0.95 / 0.99,0.95 / 0.99,0.95 / 0.99
+GRU-D (exploratory),"B→A, septic",0.80,4 / 20 / 61,0.84 / 0.97,0.86 / 0.95,0.85 / 0.91
+GRU-D (exploratory),"B→A, non-septic",0.95,4 / 20 / 61,0.95 / 0.83,0.95 / 0.83,0.95 / 0.83

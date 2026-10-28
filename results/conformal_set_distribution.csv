@@ -1,0 +1,65 @@
+direction,model,test,true_class,prediction_set,share
+A->B,gbm_both,in_site,non-septic,{non-septic},0.43685466485457586
+A->B,gbm_both,in_site,non-septic,"{septic, non-septic}",0.5145696896988555
+A->B,gbm_both,in_site,non-septic,{septic},0.04857564544656863
+A->B,gbm_both,in_site,non-septic,{},0.0
+A->B,gbm_both,in_site,septic,{non-septic},0.12912981162981163
+A->B,gbm_both,in_site,septic,"{septic, non-septic}",0.6558360633360634
+A->B,gbm_both,in_site,septic,{septic},0.21503412503412506
+A->B,gbm_both,in_site,septic,{},0.0
+A->B,gbm_both,other_site,non-septic,{non-septic},0.6119211072777796
+A->B,gbm_both,other_site,non-septic,"{septic, non-septic}",0.37657314251551993
+A->B,gbm_both,other_site,non-septic,{septic},0.011505750206700464
+A->B,gbm_both,other_site,non-septic,{},0.0
+A->B,gbm_both,other_site,septic,{non-septic},0.41367889323297896
+A->B,gbm_both,other_site,septic,"{septic, non-septic}",0.5485042337175898
+A->B,gbm_both,other_site,septic,{septic},0.03781687304943119
+A->B,gbm_both,other_site,septic,{},0.0
+A->B,grud,in_site,non-septic,{non-septic},0.4061607041588925
+A->B,grud,in_site,non-septic,"{septic, non-septic}",0.548285914419247
+A->B,grud,in_site,non-septic,{septic},0.045553381421860537
+A->B,grud,in_site,non-septic,{},0.0
+A->B,grud,in_site,septic,{non-septic},0.16864455364455364
+A->B,grud,in_site,septic,"{septic, non-septic}",0.6829914004914005
+A->B,grud,in_site,septic,{septic},0.1483640458640459
+A->B,grud,in_site,septic,{},0.0
+A->B,grud,other_site,non-septic,{non-septic},0.565413854482104
+A->B,grud,other_site,non-septic,"{septic, non-septic}",0.4285928322465599
+A->B,grud,other_site,non-septic,{septic},0.005993313271336095
+A->B,grud,other_site,non-septic,{},0.0
+A->B,grud,other_site,septic,{non-septic},0.4062285262327934
+A->B,grud,other_site,septic,"{septic, non-septic}",0.5919532919490249
+A->B,grud,other_site,septic,{septic},0.0018181818181818182
+A->B,grud,other_site,septic,{},0.0
+B->A,gbm_both,in_site,non-septic,{non-septic},0.39751138535903313
+B->A,gbm_both,in_site,non-septic,"{septic, non-septic}",0.5556702778369753
+B->A,gbm_both,in_site,non-septic,{septic},0.046818336803991584
+B->A,gbm_both,in_site,non-septic,{},0.0
+B->A,gbm_both,in_site,septic,{non-septic},0.1252058185165146
+B->A,gbm_both,in_site,septic,"{septic, non-septic}",0.6853589308258239
+B->A,gbm_both,in_site,septic,{septic},0.1894352506576615
+B->A,gbm_both,in_site,septic,{},0.0
+B->A,gbm_both,other_site,non-septic,{non-septic},0.22793025454116603
+B->A,gbm_both,other_site,non-septic,"{septic, non-septic}",0.6383475719801016
+B->A,gbm_both,other_site,non-septic,{septic},0.13372217347873236
+B->A,gbm_both,other_site,non-septic,{},0.0
+B->A,gbm_both,other_site,septic,{non-septic},0.08558862608440747
+B->A,gbm_both,other_site,septic,"{septic, non-septic}",0.6652403255625134
+B->A,gbm_both,other_site,septic,{septic},0.24917104835307907
+B->A,gbm_both,other_site,septic,{},0.0
+B->A,grud,in_site,non-septic,{non-septic},0.36065338307282196
+B->A,grud,in_site,non-septic,"{septic, non-septic}",0.591679948916294
+B->A,grud,in_site,non-septic,{septic},0.047666668010883914
+B->A,grud,in_site,non-septic,{},0.0
+B->A,grud,in_site,septic,{non-septic},0.1377623960646032
+B->A,grud,in_site,septic,"{septic, non-septic}",0.6957807670541116
+B->A,grud,in_site,septic,{septic},0.1664568368812851
+B->A,grud,in_site,septic,{},0.0
+B->A,grud,other_site,non-septic,{non-septic},0.186509033437599
+B->A,grud,other_site,non-septic,"{septic, non-septic}",0.6402888258545483
+B->A,grud,other_site,non-septic,{septic},0.17320214070785273
+B->A,grud,other_site,non-septic,{},0.0
+B->A,grud,other_site,septic,{non-septic},0.053824751766951916
+B->A,grud,other_site,septic,"{septic, non-septic}",0.651478796924526
+B->A,grud,other_site,septic,{septic},0.29469645130852207
+B->A,grud,other_site,septic,{},0.0

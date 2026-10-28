@@ -1,0 +1,5 @@
+Model,Direction,"Septic-hour coverage, source only","Septic-hour coverage, weighted","Non-septic-hour coverage, source only","Non-septic-hour coverage, weighted","Effective sample size, septic calibration points"
+"GBM, values + mask (primary)",A→B,0.54,0.74,0.97,0.92,3.4 of 184
+"GBM, values + mask (primary)",B→A,0.81,0.81,0.84,0.69,6.4 of 109
+GRU-D (exploratory),A→B,0.64,0.78,0.99,0.91,3.4 of 184
+GRU-D (exploratory),B→A,0.83,0.83,0.84,0.70,6.4 of 109

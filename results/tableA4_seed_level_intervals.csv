@@ -1,0 +1,9 @@
+Model,Direction and class,Target,"Patient-level at 24 h, training hospital: mean (seed SD; 95% interval over seeds)","Patient-level at 24 h, other hospital: mean (seed SD; 95% interval over seeds)"
+"GBM, values + mask (primary)","A→B, septic",0.80,0.87 (0.09; 0.76–0.98),0.59 (0.12; 0.44–0.74)
+"GBM, values + mask (primary)","A→B, non-septic",0.95,0.95 (0.00; 0.95–0.96),0.99 (0.01; 0.98–1.00)
+"GBM, values + mask (primary)","B→A, septic",0.80,0.87 (0.07; 0.79–0.96),0.91 (0.06; 0.84–0.98)
+"GBM, values + mask (primary)","B→A, non-septic",0.95,0.95 (0.01; 0.94–0.96),0.87 (0.04; 0.82–0.91)
+GRU-D (exploratory),"A→B, septic",0.80,0.83 (0.07; 0.74–0.92),0.59 (0.15; 0.41–0.78)
+GRU-D (exploratory),"A→B, non-septic",0.95,0.95 (0.00; 0.95–0.96),0.99 (0.00; 0.99–1.00)
+GRU-D (exploratory),"B→A, septic",0.80,0.86 (0.09; 0.75–0.97),0.95 (0.03; 0.91–0.98)
+GRU-D (exploratory),"B→A, non-septic",0.95,0.95 (0.01; 0.94–0.97),0.83 (0.07; 0.74–0.92)

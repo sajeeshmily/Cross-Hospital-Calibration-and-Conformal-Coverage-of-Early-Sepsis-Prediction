@@ -1,0 +1,9 @@
+folder,direction,test,model,official_utility,expected_utility,difference,match_within_1e-6
+AtoB_in_site_gbm_both,A->B,in_site,gbm_both,0.3319544142677433,0.3319544142677422,1.1102230246251565e-15,True
+AtoB_in_site_grud,A->B,in_site,grud,0.2561884851624368,0.2561884851624362,6.106226635438361e-16,True
+AtoB_other_site_gbm_both,A->B,other_site,gbm_both,0.18072634530949291,0.1807263453094951,-2.192690473634684e-15,True
+AtoB_other_site_grud,A->B,other_site,grud,0.11803577815676343,0.1180357781567666,-3.164135620181696e-15,True
+BtoA_in_site_gbm_both,B->A,in_site,gbm_both,0.3145535592758951,0.3145535592758949,2.220446049250313e-16,True
+BtoA_in_site_grud,B->A,in_site,grud,0.22979617530965035,0.2297961753096502,1.3877787807814457e-16,True
+BtoA_other_site_gbm_both,B->A,other_site,gbm_both,0.21362029648355635,0.2136202964835596,-3.247402347028583e-15,True
+BtoA_other_site_grud,B->A,other_site,grud,0.12727404305411996,0.1272740430541216,-1.6375789613221059e-15,True

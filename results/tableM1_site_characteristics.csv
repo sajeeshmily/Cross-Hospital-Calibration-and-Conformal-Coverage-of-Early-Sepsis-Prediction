@@ -1,0 +1,11 @@
+Characteristic,Set A,Set B
+Patients,"20,336","20,000"
+Hourly rows,"790,215","761,995"
+Septic patients,"1,790 (8.8%)","1,142 (5.7%)"
+Septic hours (label positive),"17,136 (2.17% of hours)","10,780 (1.41% of hours)"
+"Age, median (IQR), years",65 (52 to 76),62 (50 to 72)
+"Female, %",42,46
+"MICU unit, %",26,35
+"SICU unit, %",27,35
+"ICU stay, median (IQR), hours",39 (25 to 47),38 (23 to 47)
+"Share of variable-hours observed, %",20.6,19.1

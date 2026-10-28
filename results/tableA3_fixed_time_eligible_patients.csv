@@ -1,0 +1,7 @@
+Direction,Prediction time,Calibration patients (septic / non-septic),"Test patients, training hospital (septic / non-septic)","Test patients, other hospital (septic / non-septic)"
+A→B,12 h,"53 / 1,911","97 / 3,830","147 / 11,380"
+A→B,24 h,"34 / 1,501","73 / 2,985","119 / 8,506"
+A→B,48 h,26 / 431,41 / 813,"85 / 2,391"
+B→A,12 h,"24 / 1,897","42 / 3,798","289 / 11,493"
+B→A,24 h,"20 / 1,433","36 / 2,838","203 / 8,986"
+B→A,48 h,11 / 408,27 / 787,"131 / 2,496"

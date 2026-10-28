@@ -1,0 +1,41 @@
+[PASS] plain-loop re-implementation of patient-level coverage (T=24, all seeds, models, directions, both sites; 16 five-seed means): max |difference| to conformal_unit_analysis.csv = 1.11e-16
+score scale (mean over seeds):
+direction    model  score_min  score_max  score_distinct  m_min  m_max  m_median  q_septic  q_nonseptic  thr_septic_in_set_if_m_ge  thr_nonseptic_in_set_if_m_le
+     A->B gbm_both     0.0002     0.8849        758075.0 0.0024 0.5888    0.0244    0.9785       0.1177                     0.0215                        0.1177
+     A->B     grud     0.0011     0.8317        768374.4 0.0196 0.7900    0.2028    0.8362       0.5567                     0.1638                        0.5567
+     B->A gbm_both     0.0001     0.9421        701599.4 0.0019 0.6519    0.0131    0.9871       0.1193                     0.0129                        0.1193
+     B->A     grud     0.0010     0.8158        722812.4 0.0322 0.7914    0.1645    0.8811       0.5395                     0.1189                        0.5395
+prediction sets at T (share of eligible test patients, mean over seeds), GBM:
+direction    model       test true_class       prediction_set  share
+     A->B gbm_both    in_site non-septic         {non-septic}  0.437
+     A->B gbm_both    in_site non-septic {septic, non-septic}  0.515
+     A->B gbm_both    in_site non-septic             {septic}  0.049
+     A->B gbm_both    in_site non-septic                   {}  0.000
+     A->B gbm_both    in_site     septic         {non-septic}  0.129
+     A->B gbm_both    in_site     septic {septic, non-septic}  0.656
+     A->B gbm_both    in_site     septic             {septic}  0.215
+     A->B gbm_both    in_site     septic                   {}  0.000
+     A->B gbm_both other_site non-septic         {non-septic}  0.612
+     A->B gbm_both other_site non-septic {septic, non-septic}  0.377
+     A->B gbm_both other_site non-septic             {septic}  0.012
+     A->B gbm_both other_site non-septic                   {}  0.000
+     A->B gbm_both other_site     septic         {non-septic}  0.414
+     A->B gbm_both other_site     septic {septic, non-septic}  0.549
+     A->B gbm_both other_site     septic             {septic}  0.038
+     A->B gbm_both other_site     septic                   {}  0.000
+     B->A gbm_both    in_site non-septic         {non-septic}  0.398
+     B->A gbm_both    in_site non-septic {septic, non-septic}  0.556
+     B->A gbm_both    in_site non-septic             {septic}  0.047
+     B->A gbm_both    in_site non-septic                   {}  0.000
+     B->A gbm_both    in_site     septic         {non-septic}  0.125
+     B->A gbm_both    in_site     septic {septic, non-septic}  0.685
+     B->A gbm_both    in_site     septic             {septic}  0.189
+     B->A gbm_both    in_site     septic                   {}  0.000
+     B->A gbm_both other_site non-septic         {non-septic}  0.228
+     B->A gbm_both other_site non-septic {septic, non-septic}  0.638
+     B->A gbm_both other_site non-septic             {septic}  0.134
+     B->A gbm_both other_site non-septic                   {}  0.000
+     B->A gbm_both other_site     septic         {non-septic}  0.086
+     B->A gbm_both other_site     septic {septic, non-septic}  0.665
+     B->A gbm_both other_site     septic             {septic}  0.249
+     B->A gbm_both other_site     septic                   {}  0.000

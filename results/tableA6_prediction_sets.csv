@@ -1,0 +1,9 @@
+Direction,Test hospital,True class,"{non-septic} only, %","{septic, non-septic}, %","{septic} only, %"
+A→B,A (training hospital),septic,13,66,22
+A→B,A (training hospital),non-septic,44,51,5
+A→B,B (other hospital),septic,41,55,4
+A→B,B (other hospital),non-septic,61,38,1
+B→A,B (training hospital),septic,13,69,19
+B→A,B (training hospital),non-septic,40,56,5
+B→A,A (other hospital),septic,9,67,25
+B→A,A (other hospital),non-septic,23,64,13
